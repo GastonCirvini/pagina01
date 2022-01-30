@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: NotoSansSymbols2-Regular;
+    src: url(/font/NotoSansSymbols2-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: websymbols-regular;
+    src: url(/font/websymbols-regular-webfont.ttf);
+}
+body{
+    margin: 0;
+    background-image: url(/img/img03.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    padding-bottom: 2em;
+    min-height: 100vh;
+}
+
+#cabecera {
+    background-color: turquoise;
+    opacity: 0.71;
+    float: center;
+    padding-bottom: 10px;
+   
+}
+#titulo {
+    text-align: center;
+    padding: 2%;
+    z-index: 1;
+    position: relative;
+    background-position: center;
+    color: rgb(40, 46, 45);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 1px 1px rgb(40,46,45), 1px 2px 2px rgb(40,46,35) ;
+}
+h3 {
+    text-align: center;
+    color:rgb(40, 46, 45);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#imagenpresentacion {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: turquoise;
+    font-size: xx-large;
+    overflow: visible;
+    text-shadow: 1px 1px black, 2px 2px black, 4px 4 px black;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: block;
+    margin: 0 auto;
+    background: url(https://elmlearning.com/wp-content/uploads/2021/07/ELM_blog_banners_KB_04_-_Gamification_Guide.png);
+}
+#imagenpresentacion::before {
+    content: "";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    top: 0;
+    position: relative;
+    bottom: 0;
+    opacity: 0.5;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    width: 100%;
+}
+
+
+#primeralista {
+    
+    float: left;
+    opacity: 0.7;
+    padding-top: 20px;
+    margin-right: 0 auto;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    font-size: medium;
+    background-color: wheat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+#iconos {
+    display: block;
+    text-align: center;
+    font-family: websymbols-regular;
+    font-size: 70px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    color:turquoise;
+    text-shadow: 2px 2px 2px black, 4px 4px 4px black, 8px 8px 8px black;
+}
+
+#index{
+    color: rgb(40, 46, 45)e;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#presentation, #gamification, #activities, #contact {
+    color: rgb(40, 46, 45);
+    padding-bottom: 7px;
+    text-align: center;
+    animation-duration: 200ms;
+    animation-direction: normal;
+    cursor: pointer;
+}
+
+#index:hover, #presentation:hover, #gamification:hover, #activities:hover, #contact:hover{
+    color: yellowgreen;
+    text-shadow: 0px 1px 1px turquoise;
+}
+#cajas {
+    background-color: wheat;
+    
+    padding: left;
+}
+#caja1, #caja2, #caja3, #caja4{
+    display: block;
+   
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+    box-shadow: 1px 1px black ;
+    width: 300px;
+    height:300px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border-color: rgb(10, 10, 10);
+    background-color: thistle;
+    border-width: 2px;
+    border-style: inset;
+    margin-right: 30px;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#subtitulo{
+    text-shadow: 0px 1px 1px rgb(66, 63, 63), 1px 2px 2px rgb(66, 63, 63);
+    color: rgb(93, 97, 96);
+    animation-duration: 200ms;
+    padding-bottom: 20px;
+
+}
+#subtitulo:hover{
+    color: turquoise;
+    cursor:pointer;
+}
+
+
